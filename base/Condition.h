@@ -11,7 +11,7 @@
 #include <errno.h>
 #include <cstdint>
 #include <time.h>
-
+//条件变量的创建、销毁、等待、通知、广播
 class Condition : noncopyable
 {
 public:

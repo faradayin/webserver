@@ -13,7 +13,7 @@
 #include <string>
 #include <sys/syscall.h>
 #include <unistd.h>
-
+//线程的创建和等待结束
 class Thread : noncopyable
 {
 private:

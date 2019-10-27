@@ -144,6 +144,12 @@
       <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/Util.h">
          <Option target="webserver"/>
       </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/AsyncLogging.cpp">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/AsyncLogging.h">
+         <Option target="webserver"/>
+      </Unit>
       <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/Condition.h">
          <Option target="webserver"/>
       </Unit>
@@ -154,6 +160,30 @@
          <Option target="webserver"/>
       </Unit>
       <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/CurrentThread.h">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/FileUtil.cpp">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/FileUtil.h">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/LogFile.cpp">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/LogFile.h">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/LogStream.cpp">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/LogStream.h">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/Logging.cpp">
+         <Option target="webserver"/>
+      </Unit>
+      <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/Logging.h">
          <Option target="webserver"/>
       </Unit>
       <Unit filename="/mnt/c/Users/Feng/CLionProjects/webserver/base/MutexLock.h">

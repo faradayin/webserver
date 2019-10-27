@@ -369,6 +369,126 @@ CMakeFiles/webserver.dir/base/Thread.cpp.o.provides: CMakeFiles/webserver.dir/ba
 CMakeFiles/webserver.dir/base/Thread.cpp.o.provides.build: CMakeFiles/webserver.dir/base/Thread.cpp.o
 
 
+CMakeFiles/webserver.dir/base/FileUtil.cpp.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/base/FileUtil.cpp.o: ../base/FileUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/webserver.dir/base/FileUtil.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/base/FileUtil.cpp.o -c /mnt/c/Users/Feng/CLionProjects/webserver/base/FileUtil.cpp
+
+CMakeFiles/webserver.dir/base/FileUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/base/FileUtil.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Feng/CLionProjects/webserver/base/FileUtil.cpp > CMakeFiles/webserver.dir/base/FileUtil.cpp.i
+
+CMakeFiles/webserver.dir/base/FileUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/base/FileUtil.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Feng/CLionProjects/webserver/base/FileUtil.cpp -o CMakeFiles/webserver.dir/base/FileUtil.cpp.s
+
+CMakeFiles/webserver.dir/base/FileUtil.cpp.o.requires:
+
+.PHONY : CMakeFiles/webserver.dir/base/FileUtil.cpp.o.requires
+
+CMakeFiles/webserver.dir/base/FileUtil.cpp.o.provides: CMakeFiles/webserver.dir/base/FileUtil.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/base/FileUtil.cpp.o.provides.build
+.PHONY : CMakeFiles/webserver.dir/base/FileUtil.cpp.o.provides
+
+CMakeFiles/webserver.dir/base/FileUtil.cpp.o.provides.build: CMakeFiles/webserver.dir/base/FileUtil.cpp.o
+
+
+CMakeFiles/webserver.dir/base/LogFile.cpp.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/base/LogFile.cpp.o: ../base/LogFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/webserver.dir/base/LogFile.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/base/LogFile.cpp.o -c /mnt/c/Users/Feng/CLionProjects/webserver/base/LogFile.cpp
+
+CMakeFiles/webserver.dir/base/LogFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/base/LogFile.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Feng/CLionProjects/webserver/base/LogFile.cpp > CMakeFiles/webserver.dir/base/LogFile.cpp.i
+
+CMakeFiles/webserver.dir/base/LogFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/base/LogFile.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Feng/CLionProjects/webserver/base/LogFile.cpp -o CMakeFiles/webserver.dir/base/LogFile.cpp.s
+
+CMakeFiles/webserver.dir/base/LogFile.cpp.o.requires:
+
+.PHONY : CMakeFiles/webserver.dir/base/LogFile.cpp.o.requires
+
+CMakeFiles/webserver.dir/base/LogFile.cpp.o.provides: CMakeFiles/webserver.dir/base/LogFile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/base/LogFile.cpp.o.provides.build
+.PHONY : CMakeFiles/webserver.dir/base/LogFile.cpp.o.provides
+
+CMakeFiles/webserver.dir/base/LogFile.cpp.o.provides.build: CMakeFiles/webserver.dir/base/LogFile.cpp.o
+
+
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o: ../base/AsyncLogging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o -c /mnt/c/Users/Feng/CLionProjects/webserver/base/AsyncLogging.cpp
+
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/base/AsyncLogging.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Feng/CLionProjects/webserver/base/AsyncLogging.cpp > CMakeFiles/webserver.dir/base/AsyncLogging.cpp.i
+
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/base/AsyncLogging.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Feng/CLionProjects/webserver/base/AsyncLogging.cpp -o CMakeFiles/webserver.dir/base/AsyncLogging.cpp.s
+
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.requires:
+
+.PHONY : CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.requires
+
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.provides: CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.provides.build
+.PHONY : CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.provides
+
+CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.provides.build: CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o
+
+
+CMakeFiles/webserver.dir/base/LogStream.cpp.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/base/LogStream.cpp.o: ../base/LogStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/webserver.dir/base/LogStream.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/base/LogStream.cpp.o -c /mnt/c/Users/Feng/CLionProjects/webserver/base/LogStream.cpp
+
+CMakeFiles/webserver.dir/base/LogStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/base/LogStream.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Feng/CLionProjects/webserver/base/LogStream.cpp > CMakeFiles/webserver.dir/base/LogStream.cpp.i
+
+CMakeFiles/webserver.dir/base/LogStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/base/LogStream.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Feng/CLionProjects/webserver/base/LogStream.cpp -o CMakeFiles/webserver.dir/base/LogStream.cpp.s
+
+CMakeFiles/webserver.dir/base/LogStream.cpp.o.requires:
+
+.PHONY : CMakeFiles/webserver.dir/base/LogStream.cpp.o.requires
+
+CMakeFiles/webserver.dir/base/LogStream.cpp.o.provides: CMakeFiles/webserver.dir/base/LogStream.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/base/LogStream.cpp.o.provides.build
+.PHONY : CMakeFiles/webserver.dir/base/LogStream.cpp.o.provides
+
+CMakeFiles/webserver.dir/base/LogStream.cpp.o.provides.build: CMakeFiles/webserver.dir/base/LogStream.cpp.o
+
+
+CMakeFiles/webserver.dir/base/Logging.cpp.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/base/Logging.cpp.o: ../base/Logging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/webserver.dir/base/Logging.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/base/Logging.cpp.o -c /mnt/c/Users/Feng/CLionProjects/webserver/base/Logging.cpp
+
+CMakeFiles/webserver.dir/base/Logging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/base/Logging.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Feng/CLionProjects/webserver/base/Logging.cpp > CMakeFiles/webserver.dir/base/Logging.cpp.i
+
+CMakeFiles/webserver.dir/base/Logging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/base/Logging.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Feng/CLionProjects/webserver/base/Logging.cpp -o CMakeFiles/webserver.dir/base/Logging.cpp.s
+
+CMakeFiles/webserver.dir/base/Logging.cpp.o.requires:
+
+.PHONY : CMakeFiles/webserver.dir/base/Logging.cpp.o.requires
+
+CMakeFiles/webserver.dir/base/Logging.cpp.o.provides: CMakeFiles/webserver.dir/base/Logging.cpp.o.requires
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/base/Logging.cpp.o.provides.build
+.PHONY : CMakeFiles/webserver.dir/base/Logging.cpp.o.provides
+
+CMakeFiles/webserver.dir/base/Logging.cpp.o.provides.build: CMakeFiles/webserver.dir/base/Logging.cpp.o
+
+
 # Object files for target webserver
 webserver_OBJECTS = \
 "CMakeFiles/webserver.dir/main.cpp.o" \
@@ -383,7 +503,12 @@ webserver_OBJECTS = \
 "CMakeFiles/webserver.dir/EventLoopThreadPool.cpp.o" \
 "CMakeFiles/webserver.dir/ThreadPool.cpp.o" \
 "CMakeFiles/webserver.dir/base/CountDownLatch.cpp.o" \
-"CMakeFiles/webserver.dir/base/Thread.cpp.o"
+"CMakeFiles/webserver.dir/base/Thread.cpp.o" \
+"CMakeFiles/webserver.dir/base/FileUtil.cpp.o" \
+"CMakeFiles/webserver.dir/base/LogFile.cpp.o" \
+"CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o" \
+"CMakeFiles/webserver.dir/base/LogStream.cpp.o" \
+"CMakeFiles/webserver.dir/base/Logging.cpp.o"
 
 # External object files for target webserver
 webserver_EXTERNAL_OBJECTS =
@@ -401,9 +526,14 @@ webserver: CMakeFiles/webserver.dir/EventLoopThreadPool.cpp.o
 webserver: CMakeFiles/webserver.dir/ThreadPool.cpp.o
 webserver: CMakeFiles/webserver.dir/base/CountDownLatch.cpp.o
 webserver: CMakeFiles/webserver.dir/base/Thread.cpp.o
+webserver: CMakeFiles/webserver.dir/base/FileUtil.cpp.o
+webserver: CMakeFiles/webserver.dir/base/LogFile.cpp.o
+webserver: CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o
+webserver: CMakeFiles/webserver.dir/base/LogStream.cpp.o
+webserver: CMakeFiles/webserver.dir/base/Logging.cpp.o
 webserver: CMakeFiles/webserver.dir/build.make
 webserver: CMakeFiles/webserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable webserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Feng/CLionProjects/webserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable webserver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -424,6 +554,11 @@ CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/EventLoopThreadPool.
 CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/ThreadPool.cpp.o.requires
 CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/CountDownLatch.cpp.o.requires
 CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/Thread.cpp.o.requires
+CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/FileUtil.cpp.o.requires
+CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/LogFile.cpp.o.requires
+CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o.requires
+CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/LogStream.cpp.o.requires
+CMakeFiles/webserver.dir/requires: CMakeFiles/webserver.dir/base/Logging.cpp.o.requires
 
 .PHONY : CMakeFiles/webserver.dir/requires
 

@@ -8,7 +8,7 @@
 #include "noncopyable.h"
 #include <pthread.h>
 #include <cstdio>
-
+//mutex的创建、销毁、上锁、解锁
 class MutexLock : noncopyable
 {
 public:

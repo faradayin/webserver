@@ -12,6 +12,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/webserver.dir/ThreadPool.cpp.o"
   "CMakeFiles/webserver.dir/base/CountDownLatch.cpp.o"
   "CMakeFiles/webserver.dir/base/Thread.cpp.o"
+  "CMakeFiles/webserver.dir/base/FileUtil.cpp.o"
+  "CMakeFiles/webserver.dir/base/LogFile.cpp.o"
+  "CMakeFiles/webserver.dir/base/AsyncLogging.cpp.o"
+  "CMakeFiles/webserver.dir/base/LogStream.cpp.o"
+  "CMakeFiles/webserver.dir/base/Logging.cpp.o"
   "webserver.pdb"
   "webserver"
 )

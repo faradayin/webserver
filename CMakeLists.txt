@@ -3,4 +3,4 @@ project(webserver)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(webserver main.cpp Server.h EventLoop.h Channel.h Server.cpp Channel.cpp EventLoop.cpp Epoll.h Epoll.cpp HttpData.h HttpData.cpp Util.h Util.cpp Timer.h Timer.cpp EventLoopThread.h EventLoopThread.cpp EventLoopThreadPool.h EventLoopThreadPool.cpp ThreadPool.h ThreadPool.cpp base/noncopyable.h base/Thread.h base/Condition.h base/MutexLock.h base/CountDownLatch.h base/CountDownLatch.cpp base/CurrentThread.h base/Thread.cpp)
+add_executable(webserver main.cpp Server.h EventLoop.h Channel.h Server.cpp Channel.cpp EventLoop.cpp Epoll.h Epoll.cpp HttpData.h HttpData.cpp Util.h Util.cpp Timer.h Timer.cpp EventLoopThread.h EventLoopThread.cpp EventLoopThreadPool.h EventLoopThreadPool.cpp ThreadPool.h ThreadPool.cpp base/noncopyable.h base/Thread.h base/Condition.h base/MutexLock.h base/CountDownLatch.h base/CountDownLatch.cpp base/CurrentThread.h base/Thread.cpp base/FileUtil.h base/FileUtil.cpp base/LogFile.h base/LogFile.cpp base/AsyncLogging.h base/AsyncLogging.cpp base/LogStream.h base/LogStream.cpp base/Logging.h base/Logging.cpp)

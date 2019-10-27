@@ -22,6 +22,8 @@ using namespace std;
 // you have time
 class EventLoop
 {
+    // one loop per thread，用于处理读写和定时事件
+    // eventloop代表了线程的主循环，需要让哪个线程干活，就把timer或IO channel注册到哪个线程的loop里即可
 private:
     bool looping_;
     bool quit_;
@@ -42,7 +44,6 @@ private:
 
     shared_ptr<Channel> pwakeupChannel_;
 
-
     void wakeup();
     void handleRead();
     void doPendingFunctors();
@@ -53,7 +54,7 @@ public:
     ~EventLoop();
     void loop();
     void quit();
-    void runInLoop(Functor&& cb);
+    void runInLoop(Functor&& cb);//？？
     void queueInLoop(Functor&& cb);
     bool isInLoopThread() const {return threadId_ == CurrentThread::tid();}
     void assertInLoopThread()
